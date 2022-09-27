@@ -83,34 +83,7 @@ console.log(day * 24 * 60 * 60 + ' секунд.');*/
 
 //Задача 10.
 
-/*let date = prompt('Ведите число месяца.');
-	   if (date >= 1 && date <= 31) {
-	alert('Январь.')
-} else if (date >=32 && date <= 59) {
-	alert('Февраль.')
-} else if (date >= 60 && date <= 90) {
-	alert('Март.')
-} else if (date >= 91 && date <= 120) {
-	alert('Апрель.')
-} else if (date >= 121 && date <= 151) {
-	alert('Май.')
-} else if (date >= 152 && date <= 181) {
-	alert('Июнь.')
-} else if (date >= 182 && date <= 212) {
-	alert('Июль.')
-} else if (date >= 213 && date <= 243) {
-	alert('Август.')
-} else if (date >= 244 && date <= 273) {
-	alert('Сентябрь.')
-} else if (date >= 274 && date <= 304) {
-	alert('Октябрь.')
-} else if (date >= 305 && date <= 334) {
-	alert('Ноябрь.')
-} else if (date >= 335 && date <= 365) {
-	alert('Декабрь.')
-}*/
-
-let date = prompt('Ведите число месяца.');
+let date = prompt('Ведите порядковое число любого дня года.');
 	   if (date >= 1 && date <= 31) {
 	alert(c = 'Январь')
 } else if (date >=32 && date <= 59) {
@@ -142,38 +115,38 @@ switch (c) {
 		alert('Зима.');
 	break;
 	case 'Февраль':
-		console.log('Зима.');
-	break;
-	case 'Декабрь':
-		console.log('Зима.');
+		alert('Зима.');
 	break;
 	case 'Март':
-		console.log('Весна.');
+		alert('Весна.');
 	break;
 	case 'Апрель':
-		console.log('Весна.');
+		alert('Весна.');
 	break;
 	case 'Май':
-		console.log('Весна.');
+		alert('Весна.');
 	break;
 	case 'Июнь':
-		console.log('Лето.');
+		alert('Лето.');
 	break;	
 	case 'Июль':
-		console.log('Осень.');
+		alert('Лето.');
 	break;
 	case 'Август':
-		console.log('Лето.');
+		alert('Лето.');
 	break;	
 	case 'Сентябрь':
-		console.log('Осень.');
+		alert('Осень.');
 	break;
 	case 'Октябрь':
-		console.log('Осень.');
+		alert('Осень.');
 	break;
 	case 'Ноябрь':
-		console.log('Осень.');
+		alert('Осень.');
+	break;
+	case 'Декабрь':
+		alert('Зима.');
 	break;
 	default: 
-	console.log('000000')
+		alert('ошибка в коде');
 }
