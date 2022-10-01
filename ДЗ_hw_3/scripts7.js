@@ -4,6 +4,5 @@ for (let i = 1; i < n; i++){
 	if (n < 50) continue;
 	n = n / 2;
 	num++;
-	console.log(num);
 }
 document.write(`Количество необходимых итераций составило num = ${num}`);
