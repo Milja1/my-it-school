@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	background-image: url('/img/06.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+	color: rgb(241, 129, 101);
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.header,
+.footer,
+.main {
+	padding: 30px;
+}
+
+.header {
+	background-color: rgb(31, 53, 74);
+}
+
+.nav {
+	background-color: rgb(5, 36, 104);
+	padding: 10px 10px;
+}
+
+.nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.nav a {
+	display: inline-block;
+	color: #fff;
+	padding: 20px 20px;
+}
+
+.nav a:hover {
+	background-color: rgb(6, 91, 117);
+}
+
+.photos_list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.photo {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 15px;
+	margin: 10px;
+}
+
+.photo h3 {
+	text-align: center;
+}
+
+.photo a {
+	color: #000;
+}
+
+.photo .year_photo {
+	font-weight: bold;
+	text-align: right;
+}
+
+.footer {
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Times New Roman';
+	font-size: 16px;
+	color: white;
+}
+
+.footer h4 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	color: white;
+	margin-bottom: 18px;
+}
+
+.contact_us div,
+.latest_tweets div,
+.latest_posts div {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.contact_us p,
+.latest_tweets p,
+.latest_posts p {
+	margin-left: 10px;
+}
+
+.latest_posts li,
+.copyright li {
+	list-style-type: none;
+}
+
+.latest_posts a {
+	color: white;
+	text-decoration: none;
+}
+
+.copyright {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: black;
+	padding: 30px;
+	background-color: #fff;
+}
+
+.copyright p {
+	width: 500px;
+}
+
+.href_icons a{
+	margin-left: 20px;
+}
+
+.icons {
+	height: 30px;
+}
+.href_icons img {
+	height: 50px;
+}
+
+.form,
+.form input,
+.form select,
+.form textarea,
+.form button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 10px 10px;
+}
+.form fieldset,
+.form_field {
+	margin-bottom: 10px;
+}
